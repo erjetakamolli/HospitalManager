@@ -1,3 +1,4 @@
+const mongoose = require('mongoose');
 const Patient = require("../models/patient.model");
 
 class ValidationError extends Error {
